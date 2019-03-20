@@ -1,0 +1,28 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "description": "Models for MultiVault Wallet",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiVault/models.git"
+  },
+  "author": "Steve Nguyen",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mongoose": "^5.2.14",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+      "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.2.12",
+    "@types/uuid": "^3.4.4"
+  },
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  }
+}
